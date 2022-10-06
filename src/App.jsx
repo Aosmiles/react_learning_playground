@@ -46,7 +46,7 @@ function App() {
       <button onClick={getAudio}>mic</button>
       <ImageUploader image={talkImage} onImageChange={setTalkImage} />
       <ImageUploader image={idleImage} onImageChange={setIdleImage} />
-      <img src={currentImage} width={200} alt="" />
+      <img src={currentImage} width={200} alt="" className="pixel-image" />
     </div>
   );
 }

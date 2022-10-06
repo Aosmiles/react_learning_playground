@@ -20,7 +20,7 @@
           onChange={handleFile}
         />
       </label>
-      <img src={image} width={200} alt="" />
+      <img src={image} width={200} alt="" className="pixel-image" />
     </div>
   );
 }
