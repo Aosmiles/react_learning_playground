@@ -1,5 +1,19 @@
-﻿.pixel-image {
+﻿* {
+  border: 1px solid red;
+}
+
+.pixel-image {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
+}
+
+.hidden {
+  display: none;
+}
+
+.img-hover {
+  position: absolute;
+  pointer-events: none;
+  opacity: 50%;
 }
